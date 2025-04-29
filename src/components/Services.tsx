@@ -10,7 +10,7 @@ import {
   Card,
   CardContent
 } from "@/components/ui/card";
-import { Api, Database, Palette, LayoutDashboard, Code, SplitSquareVertical } from "lucide-react";
+import { Database, Palette, LayoutDashboard, Code, SplitSquareVertical, Activity } from "lucide-react";
 
 interface ServiceProps {
   title: string;
@@ -54,7 +54,7 @@ const servicesList: ServiceProps[] = [
 const getIcon = (iconName: string) => {
   switch (iconName) {
     case 'api':
-      return <Api className="h-8 w-8 text-blue-500 dark:text-blue-400 mb-3" />;
+      return <Activity className="h-8 w-8 text-blue-500 dark:text-blue-400 mb-3" />;
     case 'dashboard':
       return <LayoutDashboard className="h-8 w-8 text-blue-500 dark:text-blue-400 mb-3" />;
     case 'database':
