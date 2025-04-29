@@ -1,5 +1,11 @@
 
 import React, { useState } from 'react';
+import { 
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 interface ServiceProps {
   title: string;
@@ -34,21 +40,19 @@ const servicesList: ServiceProps[] = [
 ];
 
 const Service: React.FC<ServiceProps> = ({ title, description }) => {
-  const [isHovered, setIsHovered] = useState(false);
-
   return (
-    <div 
-      className="service min-w-[220px] flex-shrink-0 mx-4"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <h3 className="text-lg font-bold text-blue-600 dark:text-blue-400 mb-2">{title}</h3>
-      {isHovered && (
-        <div className="service-hover">
+    <TooltipProvider>
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <div className="service min-w-[220px] flex-shrink-0 mx-4">
+            <h3 className="text-lg font-bold text-blue-600 dark:text-blue-400 mb-2">{title}</h3>
+          </div>
+        </TooltipTrigger>
+        <TooltipContent className="bg-white dark:bg-gray-800 p-3 text-sm max-w-[220px] text-gray-700 dark:text-gray-300 shadow-lg border border-gray-200 dark:border-gray-700">
           <p>{description}</p>
-        </div>
-      )}
-    </div>
+        </TooltipContent>
+      </Tooltip>
+    </TooltipProvider>
   );
 };
 
