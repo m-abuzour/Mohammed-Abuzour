@@ -77,6 +77,7 @@ const Service: React.FC<ServiceProps> = ({ title, description, icon }) => {
             <CardContent className="p-0 flex flex-col items-center">
               {getIcon(icon)}
               <h3 className="text-lg font-bold text-blue-600 dark:text-blue-400 mb-2">{title}</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-300 text-center hidden group-hover:block">{description}</p>
             </CardContent>
           </Card>
         </TooltipTrigger>
