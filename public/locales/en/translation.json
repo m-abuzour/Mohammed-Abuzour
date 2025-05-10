@@ -1,0 +1,37 @@
+{
+  "header": {
+    "name": "Mohammed Abuzour",
+    "title": "Full Stack Web Developer | Laravel, API, Vue.js Specialist",
+    "contactButton": "Contact Me",
+    "projectsButton": "View Projects",
+    "imageAlt": "Mohammed Abuzour"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "My Technical and Personal Skills",
+    "technical": "Technical Skills",
+    "soft": "Soft Skills",
+    "teamwork": "Teamwork",
+    "communication": "Communication",
+    "problemSolving": "Problem Solving",
+    "leadership": "Leadership",
+    "timeManagement": "Time Management"
+  },
+  "projects": {
+    "title": "My Projects",
+    "livesite": "Live Site",
+    "github": "GitHub"
+  },
+  "services": {
+    "title": "My Services",
+    "description": "Services I Offer"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "rights": "All rights reserved"
+  }
+}

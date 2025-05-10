@@ -22,7 +22,7 @@ const WhatsAppButton = () => {
     };
   }, []);
   
-  const phoneNumber = "+1234567890"; // Replace with your WhatsApp number
+  const phoneNumber = "+970-595-152883"; // Replace with your WhatsApp number
   const whatsappUrl = `https://wa.me/${phoneNumber}`;
   
   return (

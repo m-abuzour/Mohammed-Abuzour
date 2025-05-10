@@ -1,0 +1,37 @@
+{
+  "header": {
+    "name": "محمد أبو زور",
+    "title": "مطور ويب متكامل | متخصص في Laravel و API و Vue.js",
+    "contactButton": "تواصل معي",
+    "projectsButton": "عرض المشاريع",
+    "imageAlt": "محمد أبو زور"
+  },
+  "skills": {
+    "title": "المهارات",
+    "description": "مجموعة المهارات التقنية والشخصية التي أمتلكها",
+    "technical": "المهارات التقنية",
+    "soft": "المهارات الشخصية",
+    "teamwork": "العمل الجماعي",
+    "communication": "مهارات التواصل",
+    "problemSolving": "حل المشكلات",
+    "leadership": "القيادة",
+    "timeManagement": "إدارة الوقت"
+  },
+  "projects": {
+    "title": "مشاريعي",
+    "livesite": "عرض المشروع",
+    "github": "مصدر المشروع"
+  },
+  "services": {
+    "title": "خدماتي",
+    "description": "الخدمات التي أقدمها"
+  },
+  "footer": {
+    "quickLinks": "روابط سريعة",
+    "home": "الرئيسية",
+    "services": "الخدمات",
+    "projects": "المشاريع",
+    "contact": "تواصل معي",
+    "rights": "جميع الحقوق محفوظة"
+  }
+}

@@ -36,9 +36,14 @@ const Header = () => {
       
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between">
         <div className="text-center lg:text-left mb-8 lg:mb-0 lg:w-3/5">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">Mohammed Abuzour</h1>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">Mohammad Abu Zour</h1>
           <p className="text-lg md:text-xl text-white/90 mb-6">
-            Full Stack Web Developer | Laravel, API, Vue.js Specialist
+          Full Stack Web Developer | Laravel, API, Vue.js Specialist
+          </p>
+          <p className="text-base text-white/80 mb-4 flex flex-col md:flex-row gap-2 md:gap-4">
+            <span className="inline-flex items-center gap-2">📍 Gaza, Palestine</span>
+            <span className="inline-flex items-center gap-2">📞 +970-595-152883</span>
+            <span className="inline-flex items-center gap-2">📧 mohammadabozuor@gmail.com</span>
           </p>
           <div className="flex flex-wrap justify-center lg:justify-start gap-3">
             <a href="#contact" className="inline-block bg-white text-blue-600 hover:bg-blue-50 font-semibold py-2 px-6 rounded-lg transition-all">
@@ -52,7 +57,7 @@ const Header = () => {
         <div className="lg:w-2/5 flex justify-center lg:justify-end">
           <div className="w-32 h-32 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden border-4 border-white shadow-lg">
             <img 
-              src="https://avatars.githubusercontent.com/u/109964750?v=4" 
+              src="/images/Profile-Picture1.jpg" 
               alt="Mohammed Abuzour" 
               className="w-full h-full object-cover"
             />

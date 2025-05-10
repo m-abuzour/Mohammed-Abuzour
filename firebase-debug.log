@@ -1,0 +1,76 @@
+[debug] [2025-05-07T14:19:34.173Z] ----------------------------------------------------------------------
+[debug] [2025-05-07T14:19:34.180Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mayada Assi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-07T14:19:34.182Z] CLI Version:   14.2.2
+[debug] [2025-05-07T14:19:34.183Z] Platform:      win32
+[debug] [2025-05-07T14:19:34.183Z] Node Version:  v22.13.1
+[debug] [2025-05-07T14:19:34.184Z] Time:          Wed May 07 2025 17:19:34 GMT+0300 (Israel Daylight Time)
+[debug] [2025-05-07T14:19:34.184Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-07T14:19:34.200Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-07T14:19:34.202Z] > authorizing via signed-in user (mohammedabozour@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\iPortfolio\abuzour-web-persona-hub
+
+[debug] [2025-05-07T14:20:23.844Z] ----------------------------------------------------------------------
+[debug] [2025-05-07T14:20:23.846Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mayada Assi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-07T14:20:23.847Z] CLI Version:   14.2.2
+[debug] [2025-05-07T14:20:23.847Z] Platform:      win32
+[debug] [2025-05-07T14:20:23.847Z] Node Version:  v22.13.1
+[debug] [2025-05-07T14:20:23.847Z] Time:          Wed May 07 2025 17:20:23 GMT+0300 (Israel Daylight Time)
+[debug] [2025-05-07T14:20:23.847Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-07T14:20:23.854Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-07T14:20:23.855Z] > authorizing via signed-in user (mohammedabozour@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\iPortfolio\abuzour-web-persona-hub
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-05-07T14:28:21.145Z] Checked if tokens are valid: false, expires at: 1746625876137
+[debug] [2025-05-07T14:28:21.145Z] Checked if tokens are valid: false, expires at: 1746625876137
+[debug] [2025-05-07T14:28:21.145Z] > refreshing access token with scopes: []
+[debug] [2025-05-07T14:28:21.148Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-05-07T14:28:21.148Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-05-07T14:28:21.479Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-05-07T14:28:21.479Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-05-07T14:28:21.497Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-05-07T14:28:21.497Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"mohammed-abuzour-portfolio","name":"mohammed-abuzour-portfolio"}
+[debug] [2025-05-07T14:28:22.512Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-05-07T14:28:22.512Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.7937536000303192878"}
+[debug] [2025-05-07T14:28:22.513Z] Checked if tokens are valid: true, expires at: 1746631700479
+[debug] [2025-05-07T14:28:22.513Z] Checked if tokens are valid: true, expires at: 1746631700479
+[debug] [2025-05-07T14:28:22.513Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7937536000303192878 [none]
+[debug] [2025-05-07T14:28:23.214Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7937536000303192878 200
+[debug] [2025-05-07T14:28:23.214Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7937536000303192878 {"name":"operations/create_project.global.7937536000303192878","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","ready":true},"done":true,"error":{"code":9,"message":"Callers must accept Terms of Service","details":[{"@type":"type.googleapis.com/google.rpc.PreconditionFailure","violations":[{"type":"TOS","subject":"cloud","description":"Callers must accept Terms of Service"}]}]}}
+[debug] [2025-05-07T14:28:23.216Z] FirebaseError: Callers must accept Terms of Service
+    at OperationPoller.poll (C:\Users\Mayada Assi\AppData\Roaming\npm\node_modules\firebase-tools\lib\operation-poller.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createCloudProject (C:\Users\Mayada Assi\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:213:29)
+    at async createFirebaseProjectAndLog (C:\Users\Mayada Assi\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:71:9)
+    at async promptAndCreateNewProject (C:\Users\Mayada Assi\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:32:12)
+    at async doSetup (C:\Users\Mayada Assi\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:89:27)
+    at async init (C:\Users\Mayada Assi\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:41:9)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
